@@ -1,6 +1,10 @@
-// JavaScript source code
 const express = require('express');
 var tiendaTendero = require('./routes/tiendaTendero.js');
+
 var app = express();
-app.use("/", tiendaTendero);
-app.listen(5000, () => console.log('Server running on port 5000'));
+
+app.use("/tiendaTendero", tiendaTendero);
+
+app.listen(4000, function () {
+    console.log('Server is running.. on Port 4000');
+});

@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/DaGalR/TiendaTenderoChiper.git"
   },
-  "author": "",
+  "author": "LosPROgramadores",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DaGalR/TiendaTenderoChiper/issues"
   },
-  "homepage": "https://github.com/DaGalR/TiendaTenderoChiper#readme"
+  "homepage": "https://github.com/DaGalR/TiendaTenderoChiper#readme",
+  "dependencies": {
+    "pg": "latest",
+    "express": "^4.17.1"
+  }
 }
